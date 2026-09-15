@@ -336,6 +336,261 @@
     .shopify-nav .brand-wordmark-img{width:110px}
   }
 
+
+  /* Shopify concept section */
+  .shopify-concept{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(59,35,35,0.06);
+  }
+  .shopify-topbar{
+    background:var(--burgundy);
+    color:var(--cream);
+    text-align:center;
+    font-size:12px;
+    padding:10px 16px;
+    letter-spacing:.3px;
+  }
+  .shopify-nav2{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+    padding:16px 22px;
+    border-bottom:1px solid var(--line);
+    background:#fff;
+    flex-wrap:wrap;
+  }
+  .shopify-nav2 .brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .shopify-nav2 .brand img.icon{
+    width:30px;
+    height:30px;
+    object-fit:contain;
+  }
+  .shopify-nav2 .brand img.word{
+    width:110px;
+    height:auto;
+    object-fit:contain;
+  }
+  .shopify-nav2 .menu,
+  .shopify-nav2 .actions{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+  .shopify-nav2 .menu span,
+  .shopify-nav2 .actions span{
+    font-size:13px;
+    color:rgba(59,35,35,0.7);
+    padding:6px 10px;
+    border-radius:999px;
+    background:rgba(231,180,174,0.18);
+  }
+  .shopify-hero2{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:0;
+    background:linear-gradient(135deg,#F7ECE8 0%, #F3DAD6 48%, #E7B4AE 100%);
+  }
+  .shopify-copy{
+    padding:38px 28px;
+  }
+  .shopify-copy .eyebrow2{
+    display:inline-block;
+    background:rgba(107,39,55,.10);
+    color:var(--burgundy);
+    padding:6px 14px;
+    border-radius:999px;
+    font-size:12px;
+    font-weight:700;
+    margin-bottom:14px;
+  }
+  .shopify-copy h3{
+    margin:0 0 10px;
+    font-family:'Lemonada',sans-serif;
+    color:var(--burgundy);
+    font-size:26px;
+    line-height:1.5;
+  }
+  .shopify-copy p{
+    margin:0 0 18px;
+    color:rgba(59,35,35,.75);
+    font-size:15px;
+    max-width:460px;
+  }
+  .shopify-cta{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+  .shopify-cta span{
+    display:inline-block;
+    padding:11px 18px;
+    border-radius:12px;
+    font-size:13px;
+    font-weight:700;
+  }
+  .shopify-cta .primary{
+    background:var(--burgundy);
+    color:var(--cream);
+  }
+  .shopify-cta .secondary{
+    background:#fff;
+    color:var(--burgundy);
+    border:1px solid rgba(107,39,55,.18);
+  }
+  .shopify-visual{
+    padding:26px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .product-stage{
+    width:100%;
+    max-width:300px;
+    background:rgba(255,255,255,0.72);
+    border:1px solid rgba(255,255,255,0.6);
+    border-radius:22px;
+    padding:18px;
+    backdrop-filter:blur(5px);
+    box-shadow:0 18px 40px rgba(107,39,55,.10);
+  }
+  .product-stage .hero-item{
+    aspect-ratio:1/1;
+    border-radius:18px;
+    background:linear-gradient(145deg,#fff,#f5eceb);
+    position:relative;
+    overflow:hidden;
+    margin-bottom:12px;
+    border:1px solid rgba(107,39,55,.07);
+  }
+  .product-stage .hero-item::before{
+    content:"";
+    position:absolute;
+    width:58%;
+    height:58%;
+    background:radial-gradient(circle at 40% 40%, #D69DA7 0%, #B16A79 55%, #8A4456 100%);
+    border-radius:50%;
+    top:20%;
+    left:21%;
+    opacity:.75;
+  }
+  .product-stage .hero-item::after{
+    content:"وقتها";
+    position:absolute;
+    right:18px;
+    bottom:18px;
+    font-family:'Lemonada',sans-serif;
+    font-size:20px;
+    color:var(--burgundy);
+  }
+  .product-stage .meta{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    color:var(--mocha);
+  }
+  .product-stage .meta strong{
+    font-size:15px;
+  }
+  .product-stage .meta span{
+    font-size:13px;
+    opacity:.65;
+  }
+  .shopify-cats{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    padding:18px 22px 0;
+  }
+  .shopify-cats span{
+    padding:9px 14px;
+    border-radius:999px;
+    background:#fff;
+    border:1px solid var(--line);
+    font-size:13px;
+    color:rgba(59,35,35,.72);
+  }
+  .shopify-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:14px;
+    padding:22px;
+  }
+  .shop-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:16px;
+    overflow:hidden;
+  }
+  .shop-thumb{
+    aspect-ratio:1/1;
+    position:relative;
+    overflow:hidden;
+  }
+  .shop-thumb.one{background:linear-gradient(135deg,#F8E7E4,#E5B1AD);}
+  .shop-thumb.two{background:linear-gradient(135deg,#F7E8DF,#DCA276);}
+  .shop-thumb.three{background:linear-gradient(135deg,#F4E2E7,#C28A98);}
+  .shop-thumb.four{background:linear-gradient(135deg,#F2E7E0,#B87988);}
+  .shop-thumb::before{
+    content:"";
+    position:absolute;
+    inset:20% 22%;
+    border-radius:20px;
+    background:rgba(255,255,255,.65);
+    box-shadow:0 10px 20px rgba(59,35,35,.08);
+  }
+  .shop-thumb::after{
+    content:"";
+    position:absolute;
+    width:38%;
+    height:38%;
+    left:31%;
+    top:31%;
+    border-radius:50%;
+    background:rgba(107,39,55,.14);
+  }
+  .shop-info{
+    padding:14px 14px 16px;
+  }
+  .shop-info h4{
+    margin:0 0 4px;
+    font-size:14px;
+    color:var(--mocha);
+  }
+  .shop-info p{
+    margin:0;
+    font-size:12px;
+    color:rgba(59,35,35,.58);
+  }
+  .shop-price{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+    font-size:13px;
+    font-weight:700;
+    color:var(--burgundy);
+  }
+  @media(max-width:900px){
+    .shopify-hero2{grid-template-columns:1fr;}
+    .shopify-grid{grid-template-columns:repeat(2,1fr);}
+  }
+  @media(max-width:560px){
+    .shopify-grid{grid-template-columns:1fr;}
+    .shopify-nav2{padding:14px 16px}
+    .shopify-copy{padding:28px 18px}
+    .shopify-visual{padding:18px}
+  }
+
 </style>
 </head>
 <body>
@@ -467,21 +722,98 @@
       </div>
     </div>
 
+    
     <div class="mock-block">
-      <div class="mock-label">متجر شوبيفاي</div>
-      <div class="shopify-mock">
-        <div class="shopify-nav">
-          <div class="sw"><img src="wa2tha-wordmark.png" alt="وقتها" class="brand-wordmark-img"></div>
-          <div class="links"><span>الرئيسية</span><span>المنتجات</span><span>تواصلي معانا</span></div>
+      <div class="mock-label">تخيّل مبدئي لمتجر Shopify</div>
+      <div class="shopify-concept">
+        <div class="shopify-topbar">شحن لجميع المحافظات • الدفع عند الاستلام متاح • عروض موسمية مختارة</div>
+
+        <div class="shopify-nav2">
+          <div class="brand">
+            <img src="wa2tha-icon.png" alt="WA2THA icon" class="icon">
+            <img src="wa2tha-wordmark.png" alt="WA2THA wordmark" class="word">
+          </div>
+          <div class="menu">
+            <span>الرئيسية</span>
+            <span>الأدوات المنزلية</span>
+            <span>العروض</span>
+            <span>الأكثر مبيعًا</span>
+          </div>
+          <div class="actions">
+            <span>بحث</span>
+            <span>الحساب</span>
+            <span>السلة (2)</span>
+          </div>
         </div>
-        <div class="shopify-hero">
-          <div class="htxt">حاجات بيتك المفضلة وصلت</div>
-          <div class="sub">كل حاجة في وقتها.. وكل حاجة في مكانها</div>
+
+        <div class="shopify-hero2">
+          <div class="shopify-copy">
+            <div class="eyebrow2">واجهة متجر مقترحة</div>
+            <h3>متجر مرتب يعرض المنتجات بشكل واضح وجذاب</h3>
+            <p>ده تصور بصري لأول شاشة في Shopify: بانر بسيط، تصنيفات واضحة، ومنتجات مرتبة بنفس ألوان وهوية وقتها.</p>
+            <div class="shopify-cta">
+              <span class="primary">ابدئي التسوق</span>
+              <span class="secondary">اكتشفي الأكثر مبيعًا</span>
+            </div>
+          </div>
+          <div class="shopify-visual">
+            <div class="product-stage">
+              <div class="hero-item"></div>
+              <div class="meta">
+                <div>
+                  <strong>طقم تقديم أنيق</strong><br>
+                  <span>تنظيم وشكل بسيط للبيت</span>
+                </div>
+                <strong>349 ج.م</strong>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="shopify-products">
-          <div class="p-card"><div class="p-swatch" style="background:var(--caramel);"></div><div class="p-name">كوب حراري</div><div class="p-price">٢٥٠ ج.م</div></div>
-          <div class="p-card"><div class="p-swatch" style="background:var(--blush);"></div><div class="p-name">شمعة معطرة</div><div class="p-price">١٦٠ ج.م</div></div>
-          <div class="p-card"><div class="p-swatch" style="background:var(--burgundy);"></div><div class="p-name">صينية تقديم</div><div class="p-price">٣٢٠ ج.م</div></div>
+
+        <div class="shopify-cats">
+          <span>تنظيم المطبخ</span>
+          <span>أدوات تقديم</span>
+          <span>منتجات ترند</span>
+          <span>ديكور بسيط</span>
+          <span>هدايا البيت</span>
+        </div>
+
+        <div class="shopify-grid">
+          <div class="shop-card">
+            <div class="shop-thumb one"></div>
+            <div class="shop-info">
+              <h4>منظّم مطبخ</h4>
+              <p>تصميم عملي وشكل ناعم</p>
+              <div class="shop-price"><span>289 ج.م</span><span>أضيفي للسلة</span></div>
+            </div>
+          </div>
+
+          <div class="shop-card">
+            <div class="shop-thumb two"></div>
+            <div class="shop-info">
+              <h4>صينية تقديم</h4>
+              <p>تفصيلة أنيقة للاستخدام اليومي</p>
+              <div class="shop-price"><span>329 ج.م</span><span>أضيفي للسلة</span></div>
+            </div>
+          </div>
+
+          <div class="shop-card">
+            <div class="shop-thumb three"></div>
+            <div class="shop-info">
+              <h4>شمعة ديكورية</h4>
+              <p>قطعة خفيفة مناسبة للهدية</p>
+              <div class="shop-price"><span>159 ج.م</span><span>أضيفي للسلة</span></div>
+            </div>
+          </div>
+
+          <div class="shop-card">
+            <div class="shop-thumb four"></div>
+            <div class="shop-info">
+              <h4>بوكس أدوات منزلية</h4>
+              <p>شكل مرتب يناسب البراند</p>
+              <div class="shop-price"><span>419 ج.م</span><span>أضيفي للسلة</span></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
