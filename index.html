@@ -591,6 +591,34 @@
     .shopify-visual{padding:18px}
   }
 
+
+  /* V3 — exact corrected logo from the latest approved board */
+  .fb-cover .fb-wordmark-img{
+    width:220px;
+    max-width:42vw;
+    height:auto;
+    object-fit:contain;
+    filter:brightness(0) invert(1);
+    display:block;
+    margin:0 0 4px auto;
+  }
+  .hero .brand-wordmark-img{
+    width:min(560px,92%);
+    max-height:210px;
+  }
+  .logo-box .brand-wordmark-img{
+    width:min(230px,92%);
+    max-height:115px;
+  }
+  .logo-box .brand-icon-img{
+    width:96px;
+    height:118px;
+  }
+  @media(max-width:720px){
+    .fb-cover .fb-wordmark-img{width:155px;max-width:54vw}
+    .hero .brand-wordmark-img{width:min(470px,98%)}
+  }
+
 </style>
 </head>
 <body>
@@ -664,7 +692,7 @@
 
   <section>
     <h2>اللوجو</h2>
-    <p class="section-note">اللوجو المعتمد هو Wordmark عربي لكلمة «وقتها» وتحته WA2THA، ومعاه Monogram منفصل للاستخدام في الأفاتار، الأيقونة، الستيكر والـfavicon.</p>
+    <p class="section-note">اللوجو المعتمد هو Wordmark عربي مصحح لكلمة «وقتها» بنقطتي القاف الواضحتين وتحته WA2THA، ومعاه Monogram منفصل للاستخدام في الأفاتار، الأيقونة، الستيكر والـfavicon.</p>
 
     <div class="logo-grid">
       <div class="logo-box on-cream">
@@ -716,7 +744,7 @@
       <div class="fb-cover">
         <img src="wa2tha-icon.png" alt="وقتها" class="brand-icon-img">
         <div class="fb-text">
-          <div class="fb-word">وقتها</div>
+          <img src="wa2tha-wordmark.png" alt="وقتها WA2THA" class="fb-wordmark-img">
           <div class="fb-tag">كل حاجة في وقتها.. وكل حاجة في مكانها</div>
         </div>
       </div>
